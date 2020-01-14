@@ -3,29 +3,82 @@ body {
   font: 10px sans-serif;
 }
 
-.axis path,
-.axis line {
+
+#apple-stock-chart .axis path,
+#apple-stock-chart .axis line {
   fill: none;
   stroke: #000;
   shape-rendering: crispEdges;
 }
 
-.x.axis path {
+
+#apple-stock-chart .x.axis path {
   display: none;
 }
 
-.line {
+
+#apple-stock-chart .line {
   fill: none;
-  stroke: steelblue;
+  stroke: blue;
   stroke-width: 1.5px;
 }
 
-.overlay {
+
+#apple-stock-chart .overlay {
   fill: none;
   pointer-events: all;
 }
 
-.focus circle {
+
+#apple-stock-chart .focus circle {
   fill: none;
   stroke: steelblue;
 }
+
+
+#apple-chart-container {
+  color: red;
+  border-left: 6px solid red;
+  background-color: lightgrey;
+
+} 
+
+
+#google-stock-chart .axis path,
+#google-stock-chart .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+#google-stock-chart .x.axis path {
+  display: none;
+}
+
+
+#google-stock-chart .line {
+  fill: none;
+  stroke: green;
+  stroke-width: 1.5px;
+}
+
+
+#google-stock-chart .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+
+#gooole-stock-chart .focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+
+
+#google-chart-container {
+  color: red;
+  border-left: 6px solid blue;
+  background-color: lightgrey;
+
+} 
